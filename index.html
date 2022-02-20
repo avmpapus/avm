@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.6.0.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+  <!-- <script src="js/jquery-1.12.4.js"></script> -->
+<!--   <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+<!-- <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+  <link rel="stylesheet" href="style/menu.css">
+  <title>Document</title>
+</head>
+<body>
+<div id="menu">
+  <nav class="one">
+    <ul>
+      <li><a href="#"><i class="fa fa-home fa-fw"></i>Главная</a></li>
+      <li><a href="#" id="about" onmouseenter="about(this)">О психологии</a></li>
+      <li><a href="#" id="production" onmouseenter="production(this)" onmouseleave="production(this)">Консультация</a></li>
+      <li><a href="#" id="blogs" onmouseenter="blogs(this)">Блоги</a></li>
+      <li><a href="#">Контакты</a></li>&nbsp;
+        <input type="text" style="width:500px;height:45px;" 
+        onkeyup="this.value=this.value.replace(/^\s/,''); myFunction()" onkeydown="search(this)" onmouseenter="search(this)"
+        placeholder="Что ищете?!" name="search" id="search">&nbsp;
+        <li><a href="#">Помощь</a></li>
+        <li><a href="#">Новости</a></li>
+    </ul>
+    <br>
+  </nav>
+</div>
+<div id="dis1"></div>
+<div id="dis"></div>
+<div id="text">goooo</div>
+
+
+  <ul><div id="left_menu">
+    <li><a onclick="con(this)" id="con" style='cursor:pointer'>Что такое психология?</a></li>
+    <br>
+    <li><a onclick="con2(this)" id="con2" style='cursor:pointer'>Специальность Психолог</a></li>
+    <br>
+    <li><a id="con3">порохввава</a></li>
+  </div>
+</ul>
+
+<div id="content"></div>
+
+                <script type="text/javascript">
+      $(document).ready(function(){
+        $('#search').mouseenter(function(){
+        document.getElementById('text').innerHTML=
+        'ggggoooo ф іваіваіва іваівпівапіва'+
+        'варывап ывап ывпыва ываываыва';
+      })
+
+      
+
+    $('#search').keydown(function(){
+        if(search.value.indexOf('чт')!==-1){
+        document.getElementById('dis').innerHTML='хаха чавча';
+      }
+      if(search.value.indexOf('чо')!==-1){
+        document.getElementById('dis').innerHTML='ничокай';
+      }
+      if(search.value.indexOf('пер')!==-1){
+        document.getElementById('dis').innerHTML='что дальше';
+      }
+      if(search.value.indexOf(' детонатор ')!==-1){
+        document.getElementById('dis').innerHTML='аря аоля';
+      }
+      if(search.value.indexOf('хор')!==-1){
+        document.getElementById('con3').innerHTML='<a onclick="con3(this)" style="cursor:pointer">sdfsdfsdf</a>';
+      }
+      if(search.value.indexOf('ход')!==-1){
+        document.getElementById('con3').innerHTML='<a onclick="con3(this)" style="cursor:pointer">апор</a>';
+      }
+    })
+    $('#about').mouseenter(function(){
+        document.getElementById('dis1').innerHTML='<a href="">прриивееет</a>&nbsp;<a href="">арвапрвапр ывапвыап вапыва</a>';
+      })
+      $('#production').mouseenter(function(){
+        document.getElementById('dis1').innerHTML='<a href="">ваываы</a>&nbsp;<a href="">апрвапр правпра</a>';
+      })
+
+
+
+})
+</script>
+
+
+<div id="text">
+  Приветствуем на нашем сайте о психологии
+</div>
+
+
+
+<script>
+  $('#con').click(function(){
+document.getElementById('text').innerHTML = 'Психология — гуманитарная научная дисциплина, изучающая закономерности возникновения, развития и функционирования психики<br> и психической деятельности человека и групп людей. Тем не менее психология объединяет в себе гуманитарный и естественно-научный подходы.';
+});
+
+$('#con2').click(function(){
+document.getElementById('text').innerHTML = 'Психолог — специалист, занимающийся изучением проявлений, способов и форм организации психических явлений личности в различных областях человеческой<br> деятельности для решения научно-исследовательских и прикладных задач, а также с целью оказания психологической помощи, поддержки и сопровождения.';
+document.getElementById('text').style.display="block";
+});
+
+
+/* Переключайтесь между добавлением и удалением "responsive" класса на панели навигации, когда пользователь нажимает иконку */
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += "responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+
+$(document).ready(function(){
+$('#home').mouseenter(function(){
+        document.getElementById('text').innerHTML='нижнее меню';
+        document.getElementById('text').style.display='block';
+      })
+    })
+</script>
+
+
+
+<div class="navbar" id="myNavbar">
+  <a href="#home" onmouseenter="home(this)" id="home">Главная</a>
+  <a href="#news">Новости</a>
+  <a href="#contact">Контакты</a>
+  <a href="#about">Про нас</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+</body>
+</html>
