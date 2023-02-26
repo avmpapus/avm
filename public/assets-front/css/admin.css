@@ -1,0 +1,11 @@
+ BODY {
+    margin: 0; /* Убираем отступы в браузере */
+   }
+   #pic_cntr {
+    background: #66a240; /* Цвет фона */
+    height: 44px; /* Высота слоя */
+    /*font-family: Verdana, sans-serif; /* Гарнитура шрифта */
+    /*font-size: 32px; /* Размер шрифта */
+    /*font-weight: bold; /* Жирное начертание */
+    /*color: white; /* Белый цвет текста */
+   }

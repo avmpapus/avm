@@ -1,0 +1,18 @@
+BODY {
+    margin: 0; /* Убираем отступы в браузере */
+   }
+   
+   
+   #textlogo  h3.name { 
+ margin: 0;  
+ padding: 0; 
+font-size: 100%; 
+ position: relative; 
+top: -57px; 
+left: 100px; 
+float: left; 
+text-align: right; 
+height: 0px; 
+font-weight: bold; 
+color: white; 
+ }
