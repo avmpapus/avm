@@ -19,7 +19,7 @@ class AboutController extends Controller
      */
     public function about()
     {
-        $about='привет мир';
+        $about='привет мир !!!!!';
         //return view('/');
         return $about;
     }
