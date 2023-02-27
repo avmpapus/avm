@@ -9,7 +9,7 @@ use App\Http\Requests;
 
 use Auth;
 
-use App\User;
+//use App\User;
 
 use App\UserProfile;
 
@@ -20,8 +20,8 @@ use PDO;
 
 
 <?php
-$user = User::where('id', Auth::id())->first();
-    $user_profile = UserProfile::where('user_id', Auth::id())->first();
+/* $user = User::where('id', Auth::id())->first();
+    $user_profile = UserProfile::where('user_id', Auth::id())->first(); */
 ?>
 
 <?php
@@ -68,8 +68,11 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'opera mini') > 0) {
   
  
 ?>
+
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
