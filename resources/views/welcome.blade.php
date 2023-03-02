@@ -99,7 +99,7 @@ if (strpos(strtolower($_SERVER['HTTP_USER_AGENT']),'opera mini') > 0) {
 				</label>
 				<input type="checkbox" name="" id="open">
 				<nav>
-					<a href="#">Home</a>
+					<a href="#">Home!</a>
 					<a href="#">Inspiration</a>
 					<a href="#">Articles</a>
 					<a href="#">Works</a>
