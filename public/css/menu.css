@@ -1,0 +1,199 @@
+
+html, body {
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-weight: 100;
+    height: 0vh;
+    margin: 0px;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+    .flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}  
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: -58px;
+}
+
+.content {
+    position: absolute;
+    text-align:justify;
+    top: 10px;
+}
+
+.title {
+    font-size: 84px;
+    color: #fff;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+p{
+    font-weight: 600;
+}
+
+
+
+input[type=text] {
+    position: relative;
+width: 46%;
+top: -18px;
+z-index: 2;
+}
+
+
+html { 
+    /* overflow:  hidden; */ 
+    overflow-x: hidden;
+}
+
+ .call
+{ 
+    position: relative;
+    top:0px;
+    left:0px;
+ }
+
+ table{
+    position: relative;
+    top:-200px;
+    left:20px;
+ }
+
+ .m2{
+    position: relative;
+    top:-800px;
+    left:-38px;
+ }
+
+ .dev{
+    position: absolute;
+width: 92%;
+top: 980px;
+left: 5%;
+text-align: justify;
+/* font-size: 50px; */
+}
+
+
+/****блоки*****/
+
+#header{
+    position:relative;
+    width: 100%;
+    height: 44px;
+    background-color: #25B33f;
+    margin-bottom: 0px;
+    background-image: url(https://starper55plys.ru/wp-content/uploads/2018/05/4.jpg)  no-repeat;
+  }
+    h4{
+    color: #ddd;
+   /*  font: 25px Georgia; */
+    margin-left: 300px;
+  }
+  .descript{
+    width: 300px;
+    color: #ddd;
+    font-style: italic;
+    font-size:22px;
+  }
+  
+  
+  @media (min-width: 192px)
+  {
+    .block2 {
+      display:block;
+      position:relative;
+      left: 170px;
+    }
+    .block{
+        display:none;
+       
+       } 
+       #title2{
+        font-size:30px;
+        font-weight: 600;
+        color: #000;
+        width:50%;
+    }
+    .text-muted{
+        font-size:20px;
+        font-weight: bold;
+    }
+    #title{
+        font-size:15px;
+        color: #000;
+    }
+    #footer{
+        position:fixed;
+        background-color: #dae0db;
+        top:860px;
+        left:0px;
+        width:100%;
+        height: 50px;
+    }
+    
+    #footer-text{
+        position:relative;
+        top:14px;
+        left:448px;
+    }
+  }
+  @media (max-width: 668px)
+  {
+    .block2{
+     display:none;
+    }  
+    .block{
+        position:relative;
+        left: 15px;
+        display:block;
+       } 
+       #title{
+        font-size:12px;
+        color: #000;
+    }
+    .text-muted{
+        font-size:15px;
+    }
+    
+    .intro{
+        width:470px;
+    }
+
+ #footer{
+    position:relative;
+    top:-20px;
+    left:0px;
+    width:100%;
+}
+
+#footer-text{
+    position:relative;
+    top:0px;
+    left:35px;
+}
+  }

@@ -1,0 +1,17 @@
+#slideSource {
+    opacity: 1;
+    transition: opacity 7s; 
+  }
+  
+  #slideSource.fade {
+    opacity: 0;
+  }
+
+  #lbl {
+    opacity: 1;
+    transition: opacity 7s; 
+  }
+  
+  #lbl.fade {
+    opacity: 0;
+  }
