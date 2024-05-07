@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.search_block form {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  margin: 0 auto;
+}
+input.search {
+  width: calc(100% - 54px);
+  height: auto;
+  background-color: #c1c1c1;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: 0;
+  padding-left: 15px;
+}
+input.submit {
+  background: url("https://img.icons8.com/ffffff/search") center center/50% auto
+    no-repeat #4b9e40;
+  border: 0;
+  width: 54px;
+  height: auto;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+    </style>
+</head>
+<body>
+    <div class="search_block">
+        <form>
+          <input type="text" name=text" class="search" placeholder="Поиск">
+          <input type="submit" name="submit" class="submit" value="">
+        </form>
+      </div>
+</body>
+</html>
