@@ -1,0 +1,22 @@
+@media screen and (min-width:978px) {
+  #text{
+   position: relative;
+   left: 100px;
+   top: 300px;
+   color: rgb(245, 245, 252);
+   font-size: 80px;
+  }
+}
+
+
+
+@media screen and (max-width:678px) {
+
+   #text{
+       position: relative;
+       left: 68px;
+top: -50px;
+color: rgb(239, 245, 234);
+font-size: 50px;
+  }
+}
