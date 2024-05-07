@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+body{
+    background: url('images/bck_asb.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .search_block form {
-  width: 300px;
+  width: 50%;
   height: 50px;
   display: flex;
   margin: 0 auto;
+  margin-top:50px;
 }
 input.search {
   width: calc(100% - 54px);
   height: auto;
+  
   background-color: #c1c1c1;
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
@@ -35,9 +43,14 @@ input.submit {
 <body>
     <div class="search_block">
         <form>
-          <input type="text" name=text" class="search" placeholder="Поиск">
+          <input type="text" name="text" class="search" placeholder="Для поиска введите здесь текст запроса и нажмите на Ентер">
           <input type="submit" name="submit" class="submit" value="">
         </form>
       </div>
+      <br><br><br><br>
+      <center>
+        <h1>Научная и околонаучная библиотека</h1>
+      Asbook - научная и околонаучная книга. Мы стремимся к правильному образованию общества
+      </center>
 </body>
 </html>
