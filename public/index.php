@@ -749,9 +749,9 @@ overflow: hidden;
         <div class="row">
           <div class="col-sm-3">
             <a href="techstackopencart">
-              <div class="single-table wow flipInY" style="background: url('/public/images/opencart.png') no-repeat;" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="single-table wow flipInY" style="background: url('/public/images/Angular_gradient.png') no-repeat;" data-wow-duration="1000ms" data-wow-delay="300ms">
             <br><br><br><br><br><br>
-            <h3>OpenCart</h3>
+            <h3>Angular</h3>
             </div>
           </a>
           </div>
